@@ -1,0 +1,226 @@
+Unlocks.Speed LVL 1 Completion 31.15 Global 31.15
+{Items.Hay:0,Items.Wood:0,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 1 Completion 23.78 Global 54.97
+{Items.Hay:0,Items.Wood:0,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Plant LVL 1 Completion 30.26 Global 85.27
+{Items.Hay:0,Items.Wood:0,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 2 Completion 23.05 Global 108.36
+{Items.Hay:11,Items.Wood:1,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 2 Completion 31.94 Global 140.33
+{Items.Hay:18,Items.Wood:0,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 1 Completion 62.32 Global 202.68
+{Items.Hay:35,Items.Wood:0,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 1 Completion 35.24 Global 237.95
+{Items.Hay:52,Items.Wood:2,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Trees LVL 0 Completion 139.13 Global 377.11
+{Items.Hay:59,Items.Wood:27,Items.Carrot:71,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Trees LVL 1 Completion 158.36 Global 396.33
+{Items.Hay:68,Items.Wood:0,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 1 Completion 123.81 Global 520.17
+{Items.Hay:89,Items.Wood:0,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:1,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 2 Completion 83.62 Global 603.82
+{Items.Hay:1,Items.Wood:0,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:9,Items.Fertilizer:8,Items.Power:0,Items.Piggy:0}
+Unlocks.Trees LVL 2 Completion 60.12 Global 663.97
+{Items.Hay:5,Items.Wood:0,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:15,Items.Fertilizer:14,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 2 Completion 37.13 Global 701.12
+{Items.Hay:42,Items.Wood:17,Items.Carrot:31,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:18,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 3 Completion 47.83 Global 711.82
+{Items.Hay:68,Items.Wood:15,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:19,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 3 Completion 21.65 Global 733.49
+{Items.Hay:97,Items.Wood:32,Items.Carrot:1,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:21,Items.Power:0,Items.Piggy:0}
+Unlocks.Pumpkins LVL 0 Completion 235.69 Global 969.2
+{Items.Hay:224,Items.Wood:161,Items.Carrot:350,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:44,Items.Power:0,Items.Piggy:0}
+Unlocks.Pumpkins LVL 1 Completion 257.07 Global 990.58
+{Items.Hay:272,Items.Wood:51,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:47,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 3 Completion 26.07 Global 1016.67
+{Items.Hay:2,Items.Wood:51,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:2,Items.Fertilizer:49,Items.Power:0,Items.Piggy:0}
+Unlocks.Trees LVL 3 Completion 48.72 Global 1065.41
+{Items.Hay:2,Items.Wood:51,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:7,Items.Fertilizer:54,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 2 Completion 9.41 Global 1074.84
+{Items.Hay:74,Items.Wood:12,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:55,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 3 Completion 19.66 Global 1085.08
+{Items.Hay:146,Items.Wood:57,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:1,Items.Fertilizer:56,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 4 Completion 28.46 Global 1093.89
+{Items.Hay:254,Items.Wood:20,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:57,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 5 Completion 40.75 Global 1106.18
+{Items.Hay:338,Items.Wood:80,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:58,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 2 Completion 84.19 Global 1190.4
+{Items.Hay:410,Items.Wood:17,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:67,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 2 Completion 16.12 Global 1206.54
+{Items.Hay:482,Items.Wood:62,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:1,Items.Fertilizer:69,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 4 Completion 19.4 Global 1225.96
+{Items.Hay:8,Items.Wood:62,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:10,Items.Fertilizer:73,Items.Power:0,Items.Piggy:0}
+Unlocks.Trees LVL 4 Completion 61.3 Global 1287.28
+{Items.Hay:1,Items.Wood:62,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:41,Items.Fertilizer:85,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 3 Completion 15.27 Global 1302.58
+{Items.Hay:97,Items.Wood:10,Items.Carrot:0,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:21,Items.Fertilizer:88,Items.Power:0,Items.Piggy:0}
+Unlocks.Pumpkins LVL 2 Completion 132.62 Global 1435.22
+{Items.Hay:389,Items.Wood:318,Items.Carrot:8,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:10,Items.Fertilizer:115,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 4 Completion 19.92 Global 1455.16
+{Items.Hay:365,Items.Wood:98,Items.Carrot:10,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:12,Items.Fertilizer:119,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 5 Completion 50 Global 1485.24
+{Items.Hay:421,Items.Wood:26,Items.Carrot:10,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:11,Items.Fertilizer:125,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 6 Completion 85.01 Global 1520.25
+{Items.Hay:401,Items.Wood:182,Items.Carrot:2,Items.Pumpkin:0,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:9,Items.Fertilizer:132,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 3 Completion 27.04 Global 1547.31
+{Items.Hay:337,Items.Wood:26,Items.Carrot:80,Items.Pumpkin:256,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:10,Items.Fertilizer:137,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 4 Completion 32.23 Global 1552.49
+{Items.Hay:449,Items.Wood:34,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:8,Items.Fertilizer:138,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 6 Completion 11.62 Global 1564.13
+{Items.Hay:629,Items.Wood:40,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:140,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 7 Completion 24 Global 1576.51
+{Items.Hay:841,Items.Wood:149,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:143,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 8 Completion 35.14 Global 1587.64
+{Items.Hay:1037,Items.Wood:13,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:145,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 9 Completion 50.17 Global 1602.68
+{Items.Hay:1153,Items.Wood:125,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:148,Items.Power:0,Items.Piggy:0}
+Unlocks.Watering LVL 10 Completion 67.84 Global 1620.35
+{Items.Hay:1365,Items.Wood:120,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:0,Items.Fertilizer:152,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 3 Completion 118.39 Global 1738.75
+{Items.Hay:1545,Items.Wood:92,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:10,Items.Fertilizer:175,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 4 Completion 453.25 Global 2073.61
+{Items.Hay:1757,Items.Wood:56,Items.Carrot:80,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:58,Items.Fertilizer:276,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 1 Completion 328.35 Global 2401.97
+{Items.Hay:954,Items.Wood:693,Items.Carrot:635,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:113,Items.Fertilizer:407,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 1 Completion 265.42 Global 2667.4
+{Items.Hay:734,Items.Wood:541,Items.Carrot:647,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:156,Items.Fertilizer:513,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 1 Completion 178.1 Global 2845.51
+{Items.Hay:599,Items.Wood:246,Items.Carrot:518,Items.Pumpkin:56,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:0,Items.Gold:0,Items.Water:185,Items.Fertilizer:584,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 1 Completion 134.44 Global 2979.96
+{Items.Hay:599,Items.Wood:246,Items.Carrot:76,Items.Pumpkin:1606,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:40,Items.Gold:0,Items.Water:270,Items.Fertilizer:593,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 2 Completion 349.93 Global 3195.45
+{Items.Hay:1506,Items.Wood:4011,Items.Carrot:304,Items.Pumpkin:1606,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:228,Items.Gold:0,Items.Water:392,Items.Fertilizer:663,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 7 Completion 0.15 Global 3195.61
+{Items.Hay:1506,Items.Wood:4011,Items.Carrot:4,Items.Pumpkin:1606,Items.Cactus:0,Items.Bone:0,Items.Weird_Substance:228,Items.Gold:0,Items.Water:392,Items.Fertilizer:663,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 8 Completion 164.16 Global 3359.79
+{Items.Hay:2501,Items.Wood:7174,Items.Carrot:224,Items.Pumpkin:2556,Items.Cactus:250,Items.Bone:0,Items.Weird_Substance:733,Items.Gold:0,Items.Water:434,Items.Fertilizer:714,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 9 Completion 292.51 Global 3488.14
+{Items.Hay:3049,Items.Wood:8892,Items.Carrot:158,Items.Pumpkin:3206,Items.Cactus:75,Items.Bone:0,Items.Weird_Substance:1127,Items.Gold:0,Items.Water:487,Items.Fertilizer:756,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 10 Completion 475.36 Global 3670.99
+{Items.Hay:3993,Items.Wood:12456,Items.Carrot:267,Items.Pumpkin:4206,Items.Cactus:415,Items.Bone:0,Items.Weird_Substance:2040,Items.Gold:0,Items.Water:558,Items.Fertilizer:797,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 11 Completion 655.14 Global 3850.76
+{Items.Hay:4572,Items.Wood:14943,Items.Carrot:297,Items.Pumpkin:5356,Items.Cactus:225,Items.Bone:0,Items.Weird_Substance:2574,Items.Gold:0,Items.Water:635,Items.Fertilizer:841,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 12 Completion 895.65 Global 4091.27
+{Items.Hay:5974,Items.Wood:19577,Items.Carrot:409,Items.Pumpkin:7056,Items.Cactus:225,Items.Bone:0,Items.Weird_Substance:4104,Items.Gold:0,Items.Water:726,Items.Fertilizer:881,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 5 Completion 0.09 Global 4091.37
+{Items.Hay:5974,Items.Wood:19577,Items.Carrot:409,Items.Pumpkin:6556,Items.Cactus:225,Items.Bone:0,Items.Weird_Substance:4104,Items.Gold:0,Items.Water:726,Items.Fertilizer:881,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 6 Completion 27.82 Global 4119.1
+{Items.Hay:5974,Items.Wood:19577,Items.Carrot:409,Items.Pumpkin:6486,Items.Cactus:225,Items.Bone:225,Items.Weird_Substance:4104,Items.Gold:0,Items.Water:754,Items.Fertilizer:893,Items.Power:0,Items.Piggy:0}
+Unlocks.Pumpkins LVL 3 Completion 21.77 Global 4140.87
+{Items.Hay:6626,Items.Wood:20353,Items.Carrot:2,Items.Pumpkin:6486,Items.Cactus:225,Items.Bone:225,Items.Weird_Substance:4494,Items.Gold:0,Items.Water:687,Items.Fertilizer:892,Items.Power:0,Items.Piggy:0}
+Unlocks.Pumpkins LVL 4 Completion 89.28 Global 4208.39
+{Items.Hay:7855,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6486,Items.Cactus:225,Items.Bone:225,Items.Weird_Substance:5756,Items.Gold:0,Items.Water:605,Items.Fertilizer:884,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 2 Completion 102.14 Global 4310.54
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6150,Items.Cactus:2027,Items.Bone:675,Items.Weird_Substance:5756,Items.Gold:0,Items.Water:707,Items.Fertilizer:925,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 2 Completion 37.14 Global 4347.69
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6150,Items.Cactus:2027,Items.Bone:675,Items.Weird_Substance:5420,Items.Gold:16,Items.Water:745,Items.Fertilizer:940,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 2 Completion 45.18 Global 4392.87
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6150,Items.Cactus:2027,Items.Bone:675,Items.Weird_Substance:5084,Items.Gold:32,Items.Water:790,Items.Fertilizer:958,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 3 Completion 133.22 Global 4480.91
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6150,Items.Cactus:2027,Items.Bone:675,Items.Weird_Substance:4412,Items.Gold:64,Items.Water:878,Items.Fertilizer:993,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 7 Completion 31.74 Global 4512.66
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:6080,Items.Cactus:2027,Items.Bone:350,Items.Weird_Substance:4412,Items.Gold:64,Items.Water:910,Items.Fertilizer:1006,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 8 Completion 171.98 Global 4652.9
+{Items.Hay:8047,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:5730,Items.Cactus:2027,Items.Bone:2725,Items.Weird_Substance:4412,Items.Gold:64,Items.Water:1050,Items.Fertilizer:1062,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 3 Completion 52.95 Global 4705.85
+{Items.Hay:8175,Items.Wood:28078,Items.Carrot:1,Items.Pumpkin:5372,Items.Cactus:1211,Items.Bone:2400,Items.Weird_Substance:4412,Items.Gold:64,Items.Water:1103,Items.Fertilizer:1083,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 4 Completion 583.83 Global 5236.73
+{Items.Hay:15947,Items.Wood:65176,Items.Carrot:3498,Items.Pumpkin:11712,Items.Cactus:2171,Items.Bone:1543,Items.Weird_Substance:13923,Items.Gold:64,Items.Water:1052,Items.Fertilizer:997,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 5 Completion 1366.02 Global 6018.93
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:25233,Items.Gold:64,Items.Water:1148,Items.Fertilizer:922,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 3 Completion 35.9 Global 6054.83
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:24573,Items.Gold:24,Items.Water:1184,Items.Fertilizer:937,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 4 Completion 103.3 Global 6122.24
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:23223,Items.Gold:124,Items.Water:1251,Items.Fertilizer:964,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 5 Completion 231.71 Global 6250.64
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:20553,Items.Gold:144,Items.Water:1379,Items.Fertilizer:1015,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 4 Completion 75.43 Global 6326.08
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:19233,Items.Gold:64,Items.Water:1455,Items.Fertilizer:1045,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 5 Completion 217.29 Global 6467.94
+{Items.Hay:23879,Items.Wood:107898,Items.Carrot:6834,Items.Pumpkin:23040,Items.Cactus:1499,Items.Bone:2430,Items.Weird_Substance:16563,Items.Gold:84,Items.Water:1597,Items.Fertilizer:1102,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 13 Completion 147.98 Global 6615.93
+{Items.Hay:24916,Items.Wood:109605,Items.Carrot:4878,Items.Pumpkin:31680,Items.Cactus:1459,Items.Bone:2430,Items.Weird_Substance:17113,Items.Gold:84,Items.Water:1498,Items.Fertilizer:1142,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 14 Completion 522.47 Global 6990.42
+{Items.Hay:30173,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1442,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 5 Completion 0.07 Global 6990.5
+{Items.Hay:29163,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1442,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 6 Completion 0.15 Global 6990.58
+{Items.Hay:27643,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1442,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 7 Completion 0.23 Global 6990.66
+{Items.Hay:25363,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1443,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 8 Completion 0.31 Global 6990.73
+{Items.Hay:21943,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1443,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 9 Completion 0.39 Global 6990.81
+{Items.Hay:16813,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1443,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 10 Completion 0.47 Global 6990.89
+{Items.Hay:9123,Items.Wood:139360,Items.Carrot:6112,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:24806,Items.Gold:84,Items.Water:1443,Items.Fertilizer:1070,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 11 Completion 27.34 Global 7017.77
+{Items.Hay:33,Items.Wood:141122,Items.Carrot:6585,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:25498,Items.Gold:84,Items.Water:1407,Items.Fertilizer:1060,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 12 Completion 235.6 Global 7226.03
+{Items.Hay:67,Items.Wood:167251,Items.Carrot:9917,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:32325,Items.Gold:84,Items.Water:1364,Items.Fertilizer:924,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 13 Completion 519.49 Global 7509.92
+{Items.Hay:0,Items.Wood:201054,Items.Carrot:14907,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:41983,Items.Gold:84,Items.Water:1313,Items.Fertilizer:695,Items.Power:0,Items.Piggy:0}
+Unlocks.Grass LVL 14 Completion 955.76 Global 7946.19
+{Items.Hay:42,Items.Wood:253768,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1229,Items.Fertilizer:332,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 4 Completion 4.91 Global 7951.1
+{Items.Hay:1064,Items.Wood:253300,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 5 Completion 4.99 Global 7951.18
+{Items.Hay:1064,Items.Wood:252070,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 6 Completion 5.07 Global 7951.26
+{Items.Hay:1064,Items.Wood:250100,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 7 Completion 5.15 Global 7951.34
+{Items.Hay:1064,Items.Wood:246950,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 8 Completion 5.23 Global 7951.42
+{Items.Hay:1064,Items.Wood:241920,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 9 Completion 5.31 Global 7951.5
+{Items.Hay:1064,Items.Wood:233870,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:334,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 10 Completion 5.39 Global 7951.58
+{Items.Hay:1064,Items.Wood:220970,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1225,Items.Fertilizer:335,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 11 Completion 5.47 Global 7951.67
+{Items.Hay:1064,Items.Wood:200370,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1226,Items.Fertilizer:335,Items.Power:0,Items.Piggy:0}
+Unlocks.Carrots LVL 12 Completion 5.55 Global 7951.75
+{Items.Hay:1064,Items.Wood:167370,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:58004,Items.Gold:84,Items.Water:1226,Items.Fertilizer:335,Items.Power:0,Items.Piggy:0}
+Unlocks.Dinosaurs LVL 6 Completion 250.71 Global 8202.46
+{Items.Hay:1064,Items.Wood:167370,Items.Carrot:23044,Items.Pumpkin:42120,Items.Cactus:3999,Items.Bone:2430,Items.Weird_Substance:52664,Items.Gold:124,Items.Water:1476,Items.Fertilizer:435,Items.Power:0,Items.Piggy:0}
+Unlocks.Expand LVL 9 Completion 276.98 Global 8479.44
+{Items.Hay:1064,Items.Wood:167370,Items.Carrot:23044,Items.Pumpkin:41350,Items.Cactus:3999,Items.Bone:19280,Items.Weird_Substance:52664,Items.Gold:124,Items.Water:1753,Items.Fertilizer:546,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 15 Completion 121.92 Global 8601.36
+{Items.Hay:1554,Items.Wood:167370,Items.Carrot:20696,Items.Pumpkin:49630,Items.Cactus:1439,Items.Bone:19280,Items.Weird_Substance:52664,Items.Gold:124,Items.Water:1659,Items.Fertilizer:594,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 16 Completion 386.29 Global 8865.74
+{Items.Hay:2044,Items.Wood:167370,Items.Carrot:14312,Items.Pumpkin:73750,Items.Cactus:5239,Items.Bone:19280,Items.Weird_Substance:52664,Items.Gold:124,Items.Water:1636,Items.Fertilizer:700,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 17 Completion 554.56 Global 9034
+{Items.Hay:2534,Items.Wood:167370,Items.Carrot:10476,Items.Pumpkin:87070,Items.Cactus:539,Items.Bone:19280,Items.Weird_Substance:52664,Items.Gold:124,Items.Water:1624,Items.Fertilizer:767,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 18 Completion 1254.8 Global 9734.24
+{Items.Hay:34552,Items.Wood:202692,Items.Carrot:25120,Items.Pumpkin:130270,Items.Cactus:4079,Items.Bone:19280,Items.Weird_Substance:70786,Items.Gold:124,Items.Water:1508,Items.Fertilizer:557,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 19 Completion 1595.93 Global 10075.38
+{Items.Hay:36357,Items.Wood:204752,Items.Carrot:18126,Items.Pumpkin:159790,Items.Cactus:6179,Items.Bone:19280,Items.Weird_Substance:71779,Items.Gold:124,Items.Water:1489,Items.Fertilizer:671,Items.Power:0,Items.Piggy:0}
+Unlocks.Speed LVL 20 Completion 2250.87 Global 10730.31
+{Items.Hay:63496,Items.Wood:234354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:88962,Items.Gold:124,Items.Water:1393,Items.Fertilizer:496,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 3 Completion 20.39 Global 10750.7
+{Items.Hay:63496,Items.Wood:234354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:88422,Items.Gold:164,Items.Water:1414,Items.Fertilizer:504,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 4 Completion 50.41 Global 10780.73
+{Items.Hay:63496,Items.Wood:234354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:87372,Items.Gold:64,Items.Water:1444,Items.Fertilizer:516,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 5 Completion 121.93 Global 10852.24
+{Items.Hay:63496,Items.Wood:234354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:85242,Items.Gold:44,Items.Water:1515,Items.Fertilizer:545,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 6 Completion 262.01 Global 10992.33
+{Items.Hay:63496,Items.Wood:234354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:80982,Items.Gold:4,Items.Water:1655,Items.Fertilizer:601,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 5 Completion 0.05 Global 10992.39
+{Items.Hay:63496,Items.Wood:153354,Items.Carrot:27256,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:80982,Items.Gold:4,Items.Water:1655,Items.Fertilizer:601,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 6 Completion 457.04 Global 11449.38
+{Items.Hay:150971,Items.Wood:70,Items.Carrot:93334,Items.Pumpkin:205150,Items.Cactus:2439,Items.Bone:19280,Items.Weird_Substance:128675,Items.Gold:4,Items.Water:1466,Items.Fertilizer:0,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 6 Completion 99.47 Global 11548.85
+{Items.Hay:151447,Items.Wood:70,Items.Carrot:93334,Items.Pumpkin:202130,Items.Cactus:6279,Items.Bone:1980,Items.Weird_Substance:128675,Items.Gold:4,Items.Water:1566,Items.Fertilizer:60,Items.Power:0,Items.Piggy:0}
+Unlocks.Cactus LVL 6 Completion 154.53 Global 11703.39
+{Items.Hay:151447,Items.Wood:70,Items.Carrot:93334,Items.Pumpkin:202130,Items.Cactus:6279,Items.Bone:1980,Items.Weird_Substance:123311,Items.Gold:188,Items.Water:1720,Items.Fertilizer:153,Items.Power:0,Items.Piggy:0}
+Unlocks.Fertilizer LVL 7 Completion 3886.98 Global 15590.37
+{Items.Hay:883414,Items.Wood:62,Items.Carrot:579376,Items.Pumpkin:202130,Items.Cactus:6279,Items.Bone:1980,Items.Weird_Substance:267212,Items.Gold:188,Items.Water:847,Items.Fertilizer:1,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 7 Completion 223.33 Global 15813.7
+{Items.Hay:883414,Items.Wood:62,Items.Carrot:579376,Items.Pumpkin:202130,Items.Cactus:6279,Items.Bone:1980,Items.Weird_Substance:258680,Items.Gold:180,Items.Water:1071,Items.Fertilizer:157,Items.Power:0,Items.Piggy:0}
+Unlocks.Polyculture LVL 8 Completion 665.91 Global 16256.28
+{Items.Hay:883414,Items.Wood:62,Items.Carrot:579376,Items.Pumpkin:202130,Items.Cactus:6279,Items.Bone:1980,Items.Weird_Substance:241688,Items.Gold:132,Items.Water:1513,Items.Fertilizer:467,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 7 Completion 873.29 Global 17129.58
+{Items.Hay:883890,Items.Wood:62,Items.Carrot:555208,Items.Pumpkin:293516,Items.Cactus:3591,Items.Bone:3302,Items.Weird_Substance:241688,Items.Gold:132,Items.Water:1522,Items.Fertilizer:1078,Items.Power:0,Items.Piggy:0}
+Unlocks.Mazes LVL 8 Completion 3501.86 Global 19758.15
+{Items.Hay:884366,Items.Wood:62,Items.Carrot:471732,Items.Pumpkin:616258,Items.Cactus:5991,Items.Bone:6372,Items.Weird_Substance:241688,Items.Gold:132,Items.Water:1455,Items.Fertilizer:2918,Items.Power:0,Items.Piggy:0}
+Unlocks.Leaderboard LVL 1 Completion 11078.25 Global 30836.4
+{Items.Hay:1352562,Items.Wood:510776,Items.Carrot:566874,Items.Pumpkin:1615836,Items.Cactus:3655,Items.Bone:2354,Items.Weird_Substance:477932,Items.Gold:228,Items.Water:2505,Items.Fertilizer:6337,Items.Power:0,Items.Piggy:0}

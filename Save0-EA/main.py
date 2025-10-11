@@ -1,0 +1,16 @@
+#leaderboard_run(Leaderboards.Hay, "LSHay", 256)
+#leaderboard_run(Leaderboards.Wood, "LSWood", 256)
+#leaderboard_run(Leaderboards.Carrots, "LSCarrots", 256)
+#leaderboard_run(Leaderboards.Pumpkins, "LSPumpkin", 256)
+#leaderboard_run(Leaderboards.Cactus, "LSCactus", 256)
+#leaderboard_run(Leaderboards.Sunflowers, "LSSunflower", 256)
+#leaderboard_run(Leaderboards.Dinosaur, "LSDinosaur", 256)
+#leaderboard_run(Leaderboards.Maze, "LSMaze", 256)
+#leaderboard_run(Leaderboards.Polyculture, "LPolyculture", 256)
+#leaderboard_run(Leaderboards.Fastest_Reset, "LFastest_Reset", 256)
+
+#import MStory
+#MStory.run()
+#MStory.runV2([Items.Cactus, Items.Bone, Items.Gold])
+#MStory.runV3()
+#MStory.runV2()
