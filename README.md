@@ -6,7 +6,34 @@
 
 Save location: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`
 
-## Early Access Leaderboards
+## Save0
+
+1.0 & Leaderboard
+
+| Category       | Time        | Time solo   |
+|----------------|------------:|------------:|
+| Hay            |           - |           - |
+| Wood           |           - |           - |
+| Carrots        |           - |           - |
+| Pumpkins       |           - |           - |
+| Cactus         |           - |           - |
+| Sunflowers     |           - |           - |
+| Dinosaur       |           - |             |
+| Maze           |           - |           - |
+| Polyculture    |           - |             |
+| Fastest Reset  |           - |             |
+
+<details>
+<summary>ToDo</summary>
+
+- [x] All achievements
+- [ ] Leaderboard for everything
+
+</details>
+
+## Save0-EA
+
+Early Access save & Leaderboard
 
 | Category       | Time        | Rank |
 |----------------|------------:|-----:|
