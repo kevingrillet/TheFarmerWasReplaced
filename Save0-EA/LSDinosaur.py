@@ -3,7 +3,8 @@ def runBone():
 
     ws = get_world_size()
     while num_items(Items.Bone) < 98010:
-        IBone.innerFarmBoneZZV2(ws)
+        IBone.innerfarmZZV2(ws)
+
 
 runBone()
 

@@ -8,42 +8,44 @@ import IPower
 import IPumpkin
 import UDebug
 
-def farm(item, qty, hasT, hasP):
+
+def farm(item, qty, hasPolyculture, hasTrees):
     # Farm the specified item until the desired quantity is reached
 
     if item == Items.Hay:
-        if hasP:
+        if hasPolyculture:
             IPolyculture.farm(Entities.Grass, qty)
         else:
             IHayWood.farmHay(qty)
     elif item == Items.Wood:
-        if hasP:
+        if hasPolyculture:
             IPolyculture.farm(Entities.Tree, qty)
         else:
-            IHayWood.farmWood(qty, hasT)
+            IHayWood.farm(qty, hasTrees)
     elif item == Items.Carrot:
-        if hasP:
+        if hasPolyculture:
             IPolyculture.farm(Entities.Carrot, qty)
         else:
-            ICarrots.farmCarrot(qty)
+            ICarrots.farm(qty)
     elif item == Items.Pumpkin:
-        IPumpkin.farmPumpkin(qty, -1)
+        IPumpkin.farm(qty, -1)
     elif item == Items.Weird_Substance:
-        IPumpkin.farmPumpkin(-1, qty)
+        IPumpkin.farm(-1, qty)
     elif item == Items.Cactus:
-        ICactus.farmCactus(qty)
+        ICactus.farm(qty)
     elif item == Items.Bone:
-        IBone.farmBone(qty)
+        IBone.farm(qty)
     elif item == Items.Gold:
-        IGold.farmGold(qty)
+        IGold.farm(qty)
     elif item == Items.Power:
-        IPower.farmPower(qty)
+        IPower.farm(qty)
+
 
 def checkRequirement(entity, qty):
     # Determine how much of each item is needed to farm the entity
 
-    hasP = num_unlocked(Unlocks.Polyculture) > 0
-    hasT = num_unlocked(Unlocks.Trees) > 0
+    hasPolyculture = num_unlocked(Unlocks.Polyculture) > 0
+    hasTrees = num_unlocked(Unlocks.Trees) > 0
     if entity == Entities.Carrot:
         qtyChk = 1.5 * (qty - num_items(Items.Carrot)) / num_unlocked(Unlocks.Carrots)
     elif entity == Entities.Pumpkin:
@@ -51,15 +53,15 @@ def checkRequirement(entity, qty):
         grid = ws
         if grid > 5:
             grid = 5
-        pumpkinAgv = (ws ** 2) * grid
+        pumpkinAgv = (ws**2) * grid
         pumpkinMul = (qty - num_items(Items.Pumpkin)) / pumpkinAgv
-        qtyChk = (ws ** 2) * pumpkinMul
+        qtyChk = (ws**2) * pumpkinMul
     elif entity == Entities.Cactus:
         ws = get_world_size()
-        cactusCnt = (ws**2)/2
+        cactusCnt = (ws**2) / 2
         cactusAvg = cactusCnt**2
         cactusMul = (qty - num_items(Items.Cactus)) / cactusAvg
-        qtyChk = 2 * (ws ** 2) * cactusMul * 1.25
+        qtyChk = 2 * (ws**2) * cactusMul * 1.25
     elif entity == Entities.Sunflower:
         qtyChk = (qty - num_items(Items.Power)) / num_unlocked(Unlocks.Sunflowers)
     elif entity == Entities.Dinosaur:
@@ -71,9 +73,9 @@ def checkRequirement(entity, qty):
         grid = ws
         if grid > 5:
             grid = 5
-        gooAgv = 0.75 * (ws ** 2) * grid
+        gooAgv = 0.75 * (ws**2) * grid
         gooMul = (qty - num_items(Items.Weird_Substance)) / gooAgv
-        qtyChk = 2 * (ws ** 2) * gooMul
+        qtyChk = 2 * (ws**2) * gooMul
         entity = Entities.Pumpkin
     else:
         qtyChk = qty
@@ -82,22 +84,25 @@ def checkRequirement(entity, qty):
     for item in cost:
         itemCost = cost[item] * qtyChk
         while num_items(item) < itemCost:
-            farm(item, itemCost, hasT, hasP)
+            farm(item, itemCost, hasPolyculture, hasTrees)
 
-def getSkill(t, hasT, hasP, level, skill):
+
+def getSkill(t, hasPolyculture, hasTrees, level, skill):
     # Unlock the specified skill to the desired level
 
     lt = get_time()
     while num_unlocked(skill) < level:
         if skill == Unlocks.Expand and level == 7:
-            cost = {Items.Bone:5000}
+            cost = {Items.Bone: 5000}
         elif skill == Unlocks.Expand and level == 9:
-            cost = {Items.Bone:80000}
+            cost = {Items.Bone: 80000}
         else:
             cost = get_cost(skill)
         for item in cost:
-            farm(item, cost[item], hasT, hasP)
+            farm(item, cost[item], hasPolyculture, hasTrees)
         unlock(skill)
         et = get_time()
-        quick_print(skill, "LVL", num_unlocked(skill), "Completion", et-lt, "Global", et-t)
+        quick_print(
+            skill, "LVL", num_unlocked(skill), "Completion", et - lt, "Global", et - t
+        )
         UDebug.printStorage()

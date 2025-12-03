@@ -3,7 +3,8 @@ import UManager
 import UMaths
 import UMove
 
-def innerFarmCactusV0(ws):
+
+def innerfarmV0(ws):
     for x in range(ws):
         UMove.goTo(x, 0, ws)
         cols = []
@@ -37,7 +38,8 @@ def innerFarmCactusV0(ws):
             for _ in range(minX + 1 - i):
                 swap(West)
 
-def innerFarmCactusV1(ws):
+
+def innerfarmV1(ws):
     # Grow and sort cactus until reaching target quantity
 
     def _plant(grid_size, ws):
@@ -83,10 +85,11 @@ def innerFarmCactusV1(ws):
 
     _gnomeSort(_plant(ws**2, ws), ws)
 
-def farmCactus(qty):
+
+def farm(qty):
     # Check requirements and start cactus farming loop
     UManager.checkRequirement(Entities.Cactus, qty)
     ws = get_world_size()
     UMove.init(ws)
     while num_items(Items.Cactus) < qty:
-        innerFarmCactusV1(ws)
+        innerfarmV1(ws)

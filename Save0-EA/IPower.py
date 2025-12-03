@@ -2,14 +2,15 @@ import UFarm
 import UManager
 import UMove
 
-def innerFarmPower(ws):
+
+def innerfarm(ws):
     # Plant and harvest sunflowers in a systematic way
 
     def _plant(ws):
         # Plant sunflowers across the grid and group them by petal count
-        petals={}
-        for i in range(7, 15+1):
-            petals[i]=[]
+        petals = {}
+        for i in range(7, 15 + 1):
+            petals[i] = []
 
         for x in range(ws):
             for y in range(ws):
@@ -38,11 +39,12 @@ def innerFarmPower(ws):
 
     _harvest(_plant(ws), ws)
 
-def farmPower(qty):
+
+def farm(qty):
     # Generate power by growing and harvesting sunflowers
 
     UManager.checkRequirement(Entities.Sunflower, qty)
     ws = get_world_size()
     UMove.init(ws)
     while num_items(Items.Power) < qty:
-        innerFarmPower(ws)
+        innerfarm(ws)

@@ -3,7 +3,8 @@ def runWood():
 
     ws = get_world_size()
     while num_items(Items.Wood) < 100000:
-        #IHayWood.innerFarmWood(ws)
-        IHayWood.innerFarmWoodWithT(ws)
+        # IHayWood.innerfarm(ws)
+        IHayWood.innerfarmWithT(ws)
+
 
 runWood()

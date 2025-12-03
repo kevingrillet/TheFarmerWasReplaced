@@ -7,12 +7,13 @@
 
 # runHay()
 
+
 def runHayPoly():
     import UFarm
 
     ws = get_world_size()
-    companions={} # Dictionary to track companion plants positions
-    link={} # Dictionary to link positions with companions
+    companions = {}  # Dictionary to track companion plants positions
+    link = {}  # Dictionary to link positions with companions
 
     while True:
         dX, dY = get_pos_x(), get_pos_y()
@@ -62,5 +63,6 @@ def runHayPoly():
         if dY == ws - 1:
             move(East)
         move(North)
+
 
 runHayPoly()

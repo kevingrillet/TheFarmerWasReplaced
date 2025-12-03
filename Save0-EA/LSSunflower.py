@@ -3,6 +3,7 @@ def runPower():
 
     ws = get_world_size()
     while num_items(Items.Power) < 100000:
-        IPower.innerFarmPower(ws)
+        IPower.innerfarm(ws)
+
 
 runPower()

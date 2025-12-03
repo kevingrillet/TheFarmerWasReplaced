@@ -6,10 +6,12 @@ def fertilizer():
         return True
     return False
 
+
 def fertilizerOrWater():
     if not fertilizer():
         return water()
     return True
+
 
 def qHarvest():
     # Harvest if possible
@@ -19,6 +21,7 @@ def qHarvest():
         return True
     return False
 
+
 def qTill():
     # Till the ground if it's not Soil
 
@@ -27,6 +30,7 @@ def qTill():
         return True
     return False
 
+
 def qTillGrass():
     # Till the ground if it's not Grassland
 
@@ -34,6 +38,7 @@ def qTillGrass():
         till()
         return True
     return False
+
 
 def tillAll(ws):
     # Till the entire field in a snake-like pattern
@@ -44,10 +49,11 @@ def tillAll(ws):
             qTill()
         move(North)
 
+
 def water():
     # Use water if available and water level is low
 
-    if get_water() < .75 and num_items(Items.Water) > 0:
+    if get_water() < 0.75 and num_items(Items.Water) > 0:
         use_item(Items.Water)
         return True
     return False

@@ -1,7 +1,8 @@
 import IPumpkin
 import UMove
 
-def innerFarmGold(ws, qty):
+
+def innerfarm(ws, qty):
     # Farm gold until qty is reached
     # https://en.wikipedia.org/wiki/Maze-solving_algorithm
 
@@ -32,15 +33,16 @@ def innerFarmGold(ws, qty):
                     break
         harvest()
 
-def farmGold(qty):
+
+def farm(qty):
     # Produce gold until target quantity is reached
 
     nb = qty / get_world_size() ** 2
     req = get_world_size() * num_unlocked(Unlocks.Mazes)
     qtyChk = req * nb
     if num_items(Items.Weird_Substance) < qtyChk:
-        IPumpkin.farmPumpkin(-1, qtyChk)
+        IPumpkin.farm(-1, qtyChk)
 
     ws = get_world_size()
     UMove.init(ws)
-    innerFarmGold(ws, qty)
+    innerfarm(ws, qty)

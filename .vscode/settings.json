@@ -5,5 +5,13 @@
         "MD033": false,                         // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md033
         "MD041": false,                         // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md041
         "MD051": false                          // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md051
-    }
+    },
+    // Python formatting with Black
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "black-formatter.args": [
+        "--line-length=120"
+    ]
 }

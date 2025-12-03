@@ -2,10 +2,11 @@ import UFarm
 import UManager
 import UMove
 
+
 def _firstPlant(ws):
     # Initial planting of pumpkins in a grid pattern
 
-    coord=[]
+    coord = []
     for x in range(ws):
         for y in range(ws):
             coord.append((x, y))
@@ -17,15 +18,16 @@ def _firstPlant(ws):
         move(North)
     return coord
 
+
 def innerFarmGoo(ws):
     # Grow pumpkins in normal grid order with fertilizer/water logic
 
     coord = _firstPlant(ws)
-    while len(coord)>0:
-        for i in range(len(coord)-1, -1, -1):
+    while len(coord) > 0:
+        for i in range(len(coord) - 1, -1, -1):
             x, y = coord[i]
             UMove.goTo(x, y, ws)
-            if get_entity_type()!=Entities.Pumpkin:
+            if get_entity_type() != Entities.Pumpkin:
                 harvest()
                 plant(Entities.Pumpkin)
                 UFarm.fertilizerOrWater()
@@ -34,15 +36,16 @@ def innerFarmGoo(ws):
 
     harvest()
 
-def innerFarmPumpkin(ws):
+
+def innerfarm(ws):
     # Grow pumpkins in normal grid order with fertilizer/water logic
 
     coord = _firstPlant(ws)
-    while len(coord)>0:
-        for i in range(len(coord)-1, -1, -1):
+    while len(coord) > 0:
+        for i in range(len(coord) - 1, -1, -1):
             x, y = coord[i]
             UMove.goTo(x, y, ws)
-            if get_entity_type()!=Entities.Pumpkin:
+            if get_entity_type() != Entities.Pumpkin:
                 harvest()
                 plant(Entities.Pumpkin)
                 UFarm.water()
@@ -51,7 +54,8 @@ def innerFarmPumpkin(ws):
 
     harvest()
 
-def farmPumpkin(qtyPumpkin, qtyGoo):
+
+def farm(qtyPumpkin, qtyGoo):
     # Produce pumpkins and/or goo until target quantities are reached
 
     ws = get_world_size()
@@ -60,7 +64,7 @@ def farmPumpkin(qtyPumpkin, qtyGoo):
         # Check requirements and start pumpkin farming loop
         UManager.checkRequirement(Entities.Pumpkin, qtyPumpkin)
         while num_items(Items.Pumpkin) < qtyPumpkin:
-            innerFarmPumpkin(ws)
+            innerfarm(ws)
     if qtyGoo != -1:
         # Check requirements and start goo farming loop
         UManager.checkRequirement(Items.Weird_Substance, qtyGoo)

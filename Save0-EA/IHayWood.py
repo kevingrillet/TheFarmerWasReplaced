@@ -1,6 +1,7 @@
 import UFarm
 import UMove
 
+
 def innerFarmHay(ws):
     # Grow hay in all grid positions until reaching target quantity
     for _ in range(ws):
@@ -8,12 +9,14 @@ def innerFarmHay(ws):
         move(North)
     move(East)
 
+
 def farmHay(qty):
     # Harvest and water hay fields until reaching qty
     ws = get_world_size()
     UMove.init(ws)
     while num_items(Items.Hay) < qty:
         innerFarmHay(ws)
+
 
 def innerFarmHayWood(ws):
     # Grow both hay and wood in all grid positions until reaching target quantity
@@ -29,6 +32,7 @@ def innerFarmHayWood(ws):
         UFarm.water()
     move(East)
 
+
 def farmHayWood(qty):
     # Harvest and plant both hay and wood until reaching qty
     ws = get_world_size()
@@ -36,7 +40,8 @@ def farmHayWood(qty):
     while num_items(Items.Hay) < qty or num_items(Items.Wood) < qty:
         innerFarmHayWood(ws)
 
-def innerFarmWood(ws):
+
+def innerfarm(ws):
     # Quickly harvest and replant bushes
     for _ in range(ws):
         if UFarm.qHarvest():
@@ -45,7 +50,8 @@ def innerFarmWood(ws):
         UFarm.water()
     move(East)
 
-def innerFarmWoodWithT(ws):
+
+def innerfarmWithT(ws):
     # Harvest and plant trees or bushes for wood
     for _ in range(ws):
         if UFarm.qHarvest():
@@ -59,13 +65,14 @@ def innerFarmWoodWithT(ws):
         UFarm.water()
     move(East)
 
-def farmWood(qty, hasT):
+
+def farm(qty, hasTrees):
     # Harvest and plant trees or bushes for wood until reaching qty
     ws = get_world_size()
     UMove.init(ws)
-    if hasT:
+    if hasTrees:
         while num_items(Items.Wood) < qty:
-            innerFarmWoodWithT(ws)
+            innerfarmWithT(ws)
     else:
         while num_items(Items.Wood) < qty:
-            innerFarmWood(ws)
+            innerfarm(ws)

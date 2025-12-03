@@ -4,6 +4,7 @@ def init(ws):
     clear()
     goTo(0, 0, ws)
 
+
 def goTo(xDest, yDest, ws):
     # Move to the destination (xDest, yDest) on a wrap-around grid of size ws x ws
 
@@ -31,6 +32,7 @@ def goTo(xDest, yDest, ws):
     elif dy > 0:
         for _ in range(dy):
             move(North)
+
 
 def goToWarpless(xDest, yDest):
     # Move to the destination (xDest, yDest) on a non-wrap-around grid

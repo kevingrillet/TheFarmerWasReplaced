@@ -1,12 +1,14 @@
 import UManager
 import UMove
 
+
 def _chkApple(tailSize):
     # Increase tail length if current entity is an apple
 
     if get_entity_type() == Entities.Apple:
         tailSize += 1
     return tailSize
+
 
 def _chkAppleAndMove(tailSize, direction):
     # Check apple and move in the given direction
@@ -15,7 +17,8 @@ def _chkAppleAndMove(tailSize, direction):
     move(direction)
     return tailSize
 
-def innerFarmBoneDumb(ws):
+
+def innerfarmDumb(ws):
     # Simple bone farming loop with basic movement pattern
 
     tail = 0
@@ -29,13 +32,14 @@ def innerFarmBoneDumb(ws):
         tail = newTail
     change_hat(Hats.Straw_Hat)
 
-def innerFarmBoneZZ(ws):
+
+def innerfarmZZ(ws):
     # Zigzag pattern for even-sized worlds to maximize apple collection (Hamiltonian cycle)
 
     tail = 0
     change_hat(Hats.Dinosaur_Hat)
     while tail < ws**2 - 1:
-        for _ in range(ws-1):
+        for _ in range(ws - 1):
             tail = _chkAppleAndMove(tail, North)
         tail = _chkAppleAndMove(tail, East)
         for _ in range(ws / 2):
@@ -48,13 +52,14 @@ def innerFarmBoneZZ(ws):
         tail = _chkAppleAndMove(tail, West)
     change_hat(Hats.Straw_Hat)
 
-def innerFarmBoneZZV2(ws):
+
+def innerfarmZZV2(ws):
     # Zigzag pattern for even-sized worlds to maximize apple collection (Hamiltonian cycle)
     # No tail check, just a full scan
 
     change_hat(Hats.Dinosaur_Hat)
     while True:
-        for _ in range(ws-1):
+        for _ in range(ws - 1):
             if not move(North):
                 break
         if not move(East):
@@ -74,7 +79,8 @@ def innerFarmBoneZZV2(ws):
             break
     change_hat(Hats.Straw_Hat)
 
-def farmBone(qty):
+
+def farm(qty):
     # Main function to farm bones until the required quantity is reached
 
     UManager.checkRequirement(Entities.Dinosaur, qty)
@@ -82,13 +88,13 @@ def farmBone(qty):
     UMove.init(ws)
     if ws % 2 == 0:
         while num_items(Items.Bone) < qty:
-            innerFarmBoneZZV2(ws)
+            innerfarmZZV2(ws)
     else:
         if num_unlocked(Unlocks.Auto_Unlock):
             ws -= 1
             set_world_size(ws)
             while num_items(Items.Bone) < qty:
-                innerFarmBoneZZV2(ws)
+                innerfarmZZV2(ws)
         else:
             while num_items(Items.Bone) < qty:
-                innerFarmBoneDumb(ws)
+                innerfarmDumb(ws)
