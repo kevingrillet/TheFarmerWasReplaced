@@ -41,4 +41,4 @@ echo "  $SRC"
 echo "  $DST"
 echo
 
-git --no-pager diff --no-index "$SRC" "$DST" -- '*.py'
+git --no-pager diff --no-index -w --ignore-blank-lines "$SRC" "$DST" -- '*.py'
