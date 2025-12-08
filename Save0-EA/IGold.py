@@ -21,7 +21,7 @@ def innerfarm(ws, qty):
     while num_items(Items.Gold) < qty:
         clear()
         plant(Entities.Bush)
-        while can_harvest() != True:
+        while not can_harvest():
             use_item(Items.Weird_Substance, goo)
         while get_entity_type() != Entities.Treasure:
             x = get_pos_x()

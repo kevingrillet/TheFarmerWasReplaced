@@ -1,0 +1,12 @@
+[tool.ruff]
+# Exclude specific directories
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+]
+
+[tool.ruff.lint]
+# Ignore undefined name errors (F821) since game builtins are not standard Python
+# Ignore E711 (None comparison style) for game-specific code patterns
+ignore = ["F821", "F841", "E711"]
