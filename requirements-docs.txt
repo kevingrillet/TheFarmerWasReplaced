@@ -1,0 +1,2 @@
+# Only needed to refresh the five static documentation images from Unity assets.
+UnityPy==1.25.4

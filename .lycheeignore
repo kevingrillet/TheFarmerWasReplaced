@@ -1,0 +1,4 @@
+# These file URLs point to ignored, locally generated game documentation.
+# The extractor's --check validates them after local generation.
+^file:///.*/docs/(tfwr|tmwr|ai)/
+^file:///.*/docs/manifest\.json$

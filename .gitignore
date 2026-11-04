@@ -4,6 +4,15 @@
 __builtins__.py
 save.json
 
+# Game text and derived references are generated locally, not distributed.
+/docs/tfwr/*
+!/docs/tfwr/.gitkeep
+/docs/tmwr/*
+!/docs/tmwr/.gitkeep
+/docs/ai/*
+!/docs/ai/.gitkeep
+/docs/manifest.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

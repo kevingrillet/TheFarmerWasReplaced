@@ -3,10 +3,14 @@ name: Links
 on:
   push:
     paths:
-      - '*.md'
+      - '**/*.md'
+      - '.github/workflows/links.yml'
+      - '.lycheeignore'
   pull_request:
     paths:
-      - '*.md'
+      - '**/*.md'
+      - '.github/workflows/links.yml'
+      - '.lycheeignore'
   schedule:
     - cron:  '0 0 * * SUN'
 
@@ -19,6 +23,6 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.8.0
         with:
-          args: --verbose --no-progress *.md
+          args: --verbose --no-progress '*.md' '.github/*.md' docs/README.md
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
