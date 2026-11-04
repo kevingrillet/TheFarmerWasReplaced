@@ -1,5 +1,8 @@
 *.pv
+
+# Imported game API definitions and local progression snapshot.
 __builtins__.py
+save.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
