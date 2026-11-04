@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "mads-hartmann.bash-ide-vscode",
+        "timonwong.shellcheck",
+        "DavidAnson.vscode-markdownlint"
+    ]
+}

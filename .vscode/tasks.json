@@ -1,0 +1,61 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "tasks": [
+        {
+            "label": "TFWR: Comparer les scripts",
+            "type": "process",
+            "command": "bash",
+            "windows": {
+                "command": "C:\\Program Files\\Git\\bin\\bash.exe"
+            },
+            "args": [
+                "scripts/tfwrDiff.sh"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "TFWR: Importer du jeu vers le dépôt",
+            "type": "process",
+            "command": "bash",
+            "windows": {
+                "command": "C:\\Program Files\\Git\\bin\\bash.exe"
+            },
+            "args": [
+                "scripts/tfwrImport.sh"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "focus": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "TFWR: Exporter du dépôt vers le jeu",
+            "type": "process",
+            "command": "bash",
+            "windows": {
+                "command": "C:\\Program Files\\Git\\bin\\bash.exe"
+            },
+            "args": [
+                "scripts/tfwrExport.sh"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "TFWR: Régénérer la documentation",
+            "type": "process",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "tools/extract_game_docs.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -6,6 +6,21 @@
 
 Save location: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`
 
+## Game documentation
+
+Official documentation is extracted locally from the installed game, in French
+and English. Generated texts and illustrations are ignored by Git; the links
+below become available after [local generation](CONTRIBUTING.md).
+
+- [The Farmer Was Replaced](docs/tfwr/README.md)
+- [The Miner Was Replaced — DLC](docs/tmwr/README.md)
+- [Extraction, source version and coverage](docs/README.md)
+
+For coding assistants, start with the consolidated [TFWR reference](docs/ai/tfwr.md)
+and add the [TMWR reference](docs/ai/tmwr.md) for DLC work. Shared repository
+instructions are maintained in [AGENTS.md](AGENTS.md); `CLAUDE.md` and the Copilot
+instructions point to it.
+
 ## Save0
 
 1.0 & Leaderboard
@@ -75,42 +90,10 @@ Early Access save & Leaderboard
 
 </details>
 
-## Scripts
+## Contributing
 
-### tfwrImport.sh
-
-This script copies all .py files from your game save folder (by default: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`) to a local folder (default: `./Save0`).
-If the destination folder is not empty, it will ask for confirmation before deleting its contents.
-You can use the `--dryrun` option to preview which files would be copied.
-
-Usage:
-
-```sh
-./tfwrImport.sh [-s source_path] [-d dest_path] [--dryrun]
-```
-
-### tfwrExport.sh
-
-This script copies all `.py` files (except `__builtins__.py`) from a local folder (default: `./Save0`) back to your game save folder (by default: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`).
-It does not delete or overwrite any non-`.py` files in the destination.
-You can use the `--dryrun` option to preview which files would be copied.
-
-Usage:
-
-```sh
-./tfwrExport.sh [-s source_path] [-d dest_path] [--dryrun]
-```
-
-### tfwrDiff.sh
-
-This script compares `.py` files between your game save folder (by default: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`) and a local folder (default: `./Save0`).
-It shows the differences for each file present in both folders, as well as a list of files only present in one or the other.
-
-Usage:
-
-```sh
-./tfwrDiff.sh [-s source_path] [-d dest_path]
-```
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local configuration, save scripts,
+essential VS Code tasks, recommended extensions and development checks.
 
 ## Licence
 

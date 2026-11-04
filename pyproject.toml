@@ -6,7 +6,7 @@ exclude = [
     "__pycache__",
 ]
 
-[tool.ruff.lint]
-# Ignore undefined name errors (F821) since game builtins are not standard Python
-# Ignore E711 (None comparison style) for game-specific code patterns
-ignore = ["F821", "F841", "E711"]
+[tool.ruff.lint.per-file-ignores]
+# Game builtins and conventions apply to game scripts, not host-side tools.
+"Save0/*.py" = ["F821", "F841", "E711"]
+"Save0-EA/*.py" = ["F821", "F841", "E711"]
