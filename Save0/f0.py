@@ -12,15 +12,16 @@ def run():
     _farm(Items.Coal, 500000)
 
     _farm(Items.Power, 1000000)
-    story_mining_infinite_fast.run(
-        None,
-        [
-            "treasure",
-            "pyramid",
-            "minesweeper",
-            # "mushroom",
-        ],
-    )
+    while True:
+        story_mining_infinite_fast.run(
+            None,
+            [
+                # "treasure",
+                "pyramid",
+                # "minesweeper",
+                # "mushroom",
+            ],
+        )
 
 
 if __name__ == "__main__":
