@@ -6,45 +6,32 @@
 
 Save location: `%USERPROFILE%/AppData/LocalLow/TheFarmerWasReplaced/TheFarmerWasReplaced/Saves/Save0`
 
-## Game documentation
+## Documentation
 
-Official documentation is extracted locally from the installed game, in French
-and English. Generated texts and illustrations are ignored by Git; the links
-below become available after [local generation](CONTRIBUTING.md).
+- [Documentation index](docs/README.md): game references, guides and development contracts.
+- [Contributing](CONTRIBUTING.md): setup, save synchronization and checks.
+- [Benchmarks](docs/benchmarks/README.md): categories, variants and launching.
+- [Optimization notes](docs/analyses/README.md): remaining ideas and sources.
 
-- [The Farmer Was Replaced](docs/tfwr/README.md)
-- [The Miner Was Replaced — DLC](docs/tmwr/README.md)
-- [Extraction, source version and coverage](docs/README.md)
-
-For coding assistants, start with the consolidated [TFWR reference](docs/ai/tfwr.md)
-and add the [TMWR reference](docs/ai/tmwr.md) for DLC work. Shared repository
-instructions are maintained in [AGENTS.md](AGENTS.md); `CLAUDE.md` and the Copilot
-instructions point to it.
+`main.py` runs farming and DLC progression, prepares `POWER_TARGET`, then starts
+the selected infinite mode. See the [mining guide](docs/guides/mining.md) for
+`resources`, `mining`, `explosive` and `fast`, or for farming one resource only.
+Official references are generated locally and ignored by Git.
+[AGENTS.md](AGENTS.md) centralizes assistant instructions.
 
 ## Save0
 
-1.0 & Leaderboard
-
 | Category       | Time        | Time solo   |
 |----------------|------------:|------------:|
-| Hay            |           - |           - |
-| Wood           |           - |           - |
-| Carrots        |           - |           - |
-| Pumpkins       |           - |           - |
-| Cactus         |           - |           - |
-| Sunflowers     |           - |           - |
-| Dinosaur       |           - |             |
-| Maze           |           - |           - |
-| Polyculture    |           - |             |
-| Fastest Reset  |           - |             |
-
-<details>
-<summary>ToDo</summary>
-
-- [x] All achievements
-- [ ] Leaderboard for everything
-
-</details>
+| Hay            | 4:27:00.422 | 03:52.095   |
+| Wood           | 09:58.697   | 17:24.905   |
+| Carrots        | Failed      | 6:06:40.082 |
+| Pumpkins       | 10:06.421   | 12:48.812   |
+| Cactus         | Failed      | 00:29.440   |
+| Sunflowers     | 27:54.469   | 07:29.064   |
+| Dinosaur       | 29:03.649   | —           |
+| Maze           | 17:29.776   | 11:54.096   |
+| Fastest Reset  | 6:17:55.690 | —           |
 
 ## Save0-EA
 
@@ -62,33 +49,6 @@ Early Access save & Leaderboard
 | Maze           |   06:40.014 |  320 |
 | Polyculture    |   07:04.609 |   58 |
 | Fastest Reset  | 8:33:56.525 |  110 |
-
-<details>
-<summary>ToDo</summary>
-
-- [x] Leaderboard for everything
-- [ ] Top 100 for everything
-  - [x] Hay
-    - [x] Use custom Polyculture
-  - [x] Wood
-    - [ ] Use custom Polyculture
-  - [x] Carrots
-  - [x] Pumpkins
-  - [ ] Cactus
-    - [ ] Alternative sort
-  - [x] Sunflowers
-    - [ ] Sort distance?
-  - [ ] Dinosaur
-    - [x] Less check
-    - [ ] Better logic: Agressive before Hamilton cycle? Simple GoTo? Pathfinding A*?
-  - [ ] Maze
-    - [ ] Use same maze
-    - [ ] DFS
-  - [x] Polyculture
-  - [ ] Fastest Reset
-    - [ ] Better steps
-
-</details>
 
 ## Contributing
 

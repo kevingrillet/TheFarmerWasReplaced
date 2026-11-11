@@ -5,7 +5,6 @@ from __future__ import annotations
 import posixpath
 import re
 
-
 LINK = re.compile(r"(!?)\[([^\]\n]*)\]\(([^)\n]+)\)")
 RECORD = re.compile(r'<a id="([^"]+)"></a>\s*\n## [^\n]+\n\n')
 CONFIG = re.compile(
