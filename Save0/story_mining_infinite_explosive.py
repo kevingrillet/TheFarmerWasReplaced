@@ -10,7 +10,7 @@ ACTIVITIES = [
     "treasure",
     "pyramid",
     "minesweeper",
-    # "mushroom",
+    "mushroom",
 ]
 TARGET_DEPTH = None  # None: keep descending. 10000: stop at z <= -10000.
 START_NEW_WORLD = False  # False: continue this world without funding or clear.

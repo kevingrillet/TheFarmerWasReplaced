@@ -8,7 +8,7 @@ ACTIVITIES = [
     "treasure",
     "pyramid",
     "minesweeper",
-    # "mushroom",
+    "mushroom",
 ]
 TARGET_DEPTH = None
 START_NEW_WORLD = False

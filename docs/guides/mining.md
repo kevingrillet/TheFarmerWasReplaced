@@ -53,8 +53,8 @@ gain pour une même ressource manquante arrêtent le grind.
 
 Les variantes `explosive` et `fast` partagent les collecteurs et une liste
 `ACTIVITIES` : `treasure`, `pyramid`, `minesweeper`, `mushroom`. Commenter une entrée
-la désactive ; liste vide pour descendre seulement. Mushroom est commenté dans
-la configuration conservée. Il peut demander une longue préparation.
+la désactive ; liste vide pour descendre seulement. Mushroom est activé dans
+les deux descentes ; il peut demander une longue préparation.
 
 `TARGET_DEPTH = None` ne fixe aucun plafond ; `10000` vise z ≤ −10000.
 `START_NEW_WORLD = False` reprend le terrain sans `clear()` ni financement.

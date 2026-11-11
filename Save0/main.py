@@ -6,7 +6,7 @@ import story_mining_infinite
 import story_mining_infinite_explosive
 import story_mining_infinite_fast
 
-INFINITE_MODE = "mining"  # mining / explosive / fast / resources
+INFINITE_MODE = "fast"  # mining / explosive / fast / resources
 POWER_TARGET = 1000000  # Total stock before starting infinite; 0 skips this step.
 
 
