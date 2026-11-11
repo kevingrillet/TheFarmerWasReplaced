@@ -3,14 +3,13 @@
 from __future__ import annotations
 
 import os
-from pathlib import Path
 import shutil
 import subprocess
 import tempfile
 import unittest
+from pathlib import Path
 
-from project_config import load_project_config
-
+from project_config import load_project_config, load_project_values
 
 REPO = Path(__file__).resolve().parents[1]
 WINDOWS_BASH = (
@@ -73,6 +72,27 @@ class ConfigTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="tfwr-config-") as directory:
             with self.assertRaises(FileNotFoundError):
                 load_project_config(Path(directory), {"TFWR_ENV_FILE": "missing.env"})
+
+    def test_steam_profile_uses_local_config_and_environment_without_becoming_a_path(
+        self,
+    ):
+        with tempfile.TemporaryDirectory(prefix="tfwr-config-") as directory:
+            repo = Path(directory)
+            profile = "https://steamcommunity.com/id/example_player"
+            (repo / ".env").write_text(
+                f'TFWR_STEAM_PROFILE="{profile}"\n', encoding="utf-8"
+            )
+            self.assertEqual(
+                load_project_values(repo, {})["TFWR_STEAM_PROFILE"], profile
+            )
+            override = "https://steamcommunity.com/id/another_player"
+            self.assertEqual(
+                load_project_values(repo, {"TFWR_STEAM_PROFILE": override})[
+                    "TFWR_STEAM_PROFILE"
+                ],
+                override,
+            )
+            self.assertNotIn("TFWR_STEAM_PROFILE", load_project_config(repo, {}))
 
 
 @unittest.skipUnless(BASH, "Bash is required for script integration tests")

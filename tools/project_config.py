@@ -3,18 +3,18 @@
 from __future__ import annotations
 
 import os
-from pathlib import Path
 import re
 from collections.abc import Mapping
-
+from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 PATH_KEYS = ("TFWR_GAME_DIR", "TFWR_SAVE_DIR", "TFWR_REPO_SAVE_DIR")
+CONFIG_KEYS = (*PATH_KEYS, "TFWR_STEAM_PROFILE")
 
 
-def load_project_config(
+def load_project_values(
     repo: Path = REPO, environ: Mapping[str, str] | None = None
-) -> dict[str, Path]:
+) -> dict[str, str]:
     environment = os.environ if environ is None else environ
     profile = str(environment.get("USERPROFILE") or Path.home())
 
@@ -38,7 +38,7 @@ def load_project_config(
             if not match:
                 raise ValueError(f"Invalid assignment at {env_file}:{number}")
             key, value = match.groups()
-            if key not in PATH_KEYS:
+            if key not in CONFIG_KEYS:
                 continue
             if value[:1] in ("'", '"'):
                 if len(value) < 2 or value[-1] != value[0]:
@@ -46,6 +46,15 @@ def load_project_config(
                 value = value[1:-1]
             if not values.get(key):
                 values[key] = value
+    return {key: environment.get(key) or values.get(key, "") for key in CONFIG_KEYS}
+
+
+def load_project_config(
+    repo: Path = REPO, environ: Mapping[str, str] | None = None
+) -> dict[str, Path]:
+    environment = os.environ if environ is None else environ
+    profile = str(environment.get("USERPROFILE") or Path.home())
+    values = load_project_values(repo, environment)
     defaults = {
         "TFWR_GAME_DIR": "C:/Program Files (x86)/Steam/steamapps/common/The Farmer Was Replaced",
         "TFWR_SAVE_DIR": str(
@@ -56,6 +65,7 @@ def load_project_config(
     }
     result = {}
     for key in PATH_KEYS:
-        path = expand_profile(environment.get(key) or values.get(key) or defaults[key])
+        value = (values[key] or defaults[key]).replace("%USERPROFILE%", profile)
+        path = Path(value)
         result[key] = (path if path.is_absolute() else repo / path).resolve()
     return result
