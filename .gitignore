@@ -1,4 +1,5 @@
 *.pv
+.local/
 
 # Imported game API definitions and local progression snapshot.
 __builtins__.py

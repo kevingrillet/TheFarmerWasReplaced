@@ -6,7 +6,10 @@ exclude = [
     "__pycache__",
 ]
 
+[tool.ruff.lint]
+extend-select = ["I"]
+
 [tool.ruff.lint.per-file-ignores]
 # Game builtins and conventions apply to game scripts, not host-side tools.
 "Save0/*.py" = ["F821", "F841", "E711"]
-"Save0-EA/*.py" = ["F821", "F841", "E711"]
+"Save0-EA/*.py" = ["F821", "F841", "E711", "I001"]
